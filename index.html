@@ -1,37 +1,52 @@
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title> Glassmorphism Website | CodingLab </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- FontAwesome CDN for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+</head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo"><a href="#">BubblePink!</a></div>
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Latest</a></li>
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <div class="buttons">
-        <input type="button" value="Login">
-        <input type="button" value="Register">
+  <div class="container" role="main">
+    <header>
+      <div class="logo" aria-label="Your Company">YOUR COMPANY</div>
+      <nav aria-label="Primary Navigation">
+        <ul>
+          <li><a href="#" class="nav-link">HOME</a></li>
+          <li><a href="#" class="nav-link">SERVICE</a></li>
+          <li><a href="#" class="nav-link">PORTFOLIO</a></li>
+          <li><a href="#" class="nav-link">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon" aria-label="Menu" tabindex="">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </nav>
-    <div class="text-content">
-      <h2>What is Bubble Pink?!<br>It’s a fun, colorful space that’s helping change how the Deaf community practices English! 🌸💬</h2>
-      <p>Pink Pink! Bubble Pink is for everyone who loves pink — and it’s also a welcoming place where Deaf folks like me can use ChatGPT to practice and improve English, all in a relaxed, text-based way!</p>
-    </div>
-    <div class="play-button">
-      <span class="play">Play Video</span>
-      <i class="fas fa-play" onclick="click()"></i>
-    </div>
-  </header>
+    </header>
+
+    <main>
+      <h1>LADING PAGE</h1>
+      <h2>Abstract Background</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 150s, when
+        an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 196s with the release of Letraset sheets
+        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum
+      </p>
+      <a href="#" class="btn-learn-more" role="button">LEARN MORE</a>
+    </main>
+
+    <footer>
+      <a href="#" aria-label="Facebook" title="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram" title="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="Twitter" title="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+    </footer>
+  </div>
 </body>
 </html>
